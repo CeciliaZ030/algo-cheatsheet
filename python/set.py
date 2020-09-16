@@ -11,6 +11,8 @@ y.add('a')
 # {1, 'a'}
 # add takes one arg at a time, can be int or str or tuple but cannot be list or dict
 
+list(x)
+# ['foo', 'bar', 'baz', 5.6, 9]
 y.remove(3)
 
 x.pop()
@@ -32,7 +34,7 @@ x1.union(x2)
 
 x1 & x2
 # {'baz'}
-x1.intersection(x2
+x1.intersection(x2)
 # {'baz'}
 
  x1 - x2
